@@ -1,0 +1,39 @@
+{
+  "name": "nem2-wallet",
+  "version": "0.8.12-beta",
+  "description": "nem2-wallet",
+  "main": "main.js",
+  "build": {
+    "appId": "779WZP2CKJ",
+    "copyright": "NEM-China",
+    "productName": "nem2-wallet",
+    "icon": "./res/Icon.icns",
+    "dmg": {
+      "window": {
+        "x": 100,
+        "y": 100,
+        "width": 500,
+        "height": 400
+      }
+    },
+    "files": [
+      "./**/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "electron-builder ",
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [],
+  "author": "Nemcn",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "electron-packager": "^14.1.1",
+    "electron-builder": "^22.2.0"
+  },
+  "dependencies": {
+    "electron-updater": "^4.1.2"
+  }
+}
