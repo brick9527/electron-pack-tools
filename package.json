@@ -1,12 +1,12 @@
 {
-  "name": "nem2-wallet",
-  "version": "0.8.12-beta",
-  "description": "nem2-wallet",
+  "name": "Symbol-wallet",
+  "version": "0.9.1-alpha",
+  "description": "symbol-xym-wallet",
   "main": "main.js",
   "build": {
     "appId": "779WZP2CKJ",
     "copyright": "NEM-China",
-    "productName": "nem2-wallet",
+    "productName": "symbol-wallet",
     "icon": "./res/Icon.icns",
     "dmg": {
       "window": {
