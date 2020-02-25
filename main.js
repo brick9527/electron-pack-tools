@@ -209,7 +209,7 @@ function initialize() {
             titleBarStyle: 'hidden',
             autoHideMenuBar: true,
             resizable: true,
-            frame: false,
+            frame: true,
         }
         windowOptions.icon = path.join(__dirname, './logo.png')
         mainWindow = new BrowserWindow(windowOptions)
